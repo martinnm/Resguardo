@@ -1,0 +1,50 @@
+html, body {
+  font-family: sans-serif;
+  margin: 2;
+  width: 97%;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.categories{
+  font-size: 26px;
+}
+
+.border{
+    border: 2px solid black;
+    border-spacing: 10px;
+    padding: 5px;
+    margin-left: 2;
+    margin-right:5;
+    background-color: #f0f5f5;
+}
+
+a:link {text-decoration:none; color:black}
+a:visited {color: black;}
+a:focus {outline: dashed thin red;}
+a:hover {color: orange;}
+a:active {font-style: italic;}
+
+h1 {
+  font-size: 48px;
+}
+
+p {
+  max-width: 85%;
+  min-width: 500px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.6rem;
+}
+
+div {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+}
